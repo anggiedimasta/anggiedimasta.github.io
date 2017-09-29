@@ -1,2 +1,2 @@
-# pancasila
-Dalam rangka menyelesaikan tugas matakuliah Pancasila yang berjudul "Pancasila Sebagai Paradigma Pengembangan Ilmu"
+Dalam rangka menyelesaikan tugas matakuliah Pancasila yang berjudul <br/> 
+<b>Pancasila Sebagai Paradigma Pengembangan Ilmu</b>
