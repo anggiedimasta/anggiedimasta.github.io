@@ -121,6 +121,9 @@ section {
 body {
 	line-height: 1;
 	font-family: 'SofiaProLight';
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
 }
 
 ol,
@@ -494,7 +497,7 @@ a:focus {
     Just make sure you don't blindly copy this approach.
 */
 
-#source {
+#pertanyaan {
 	width: 700px;
 	padding-bottom: 300px;
 
@@ -504,8 +507,9 @@ a:focus {
 	background-repeat: no-repeat;
 }
 
-#source q {
-	font-size: 60px;
+#pertanyaan q {
+	font-size: 50px;
+	font-weight: bold;
 }
 
 /*
@@ -850,3 +854,166 @@ body.impress-mouse-timeout {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+/* hero section 1 */
+
+.bg-0 {
+	position: absolute;
+	width: 130%;
+	height: 130%;
+	opacity: 1;
+	background: url('../images/gaussian-blur.jpg');
+	background-size: 130% 130%;
+	z-index: -30;
+	animation: grad-bg-0 12s ease-in-out alternate infinite;
+}
+
+.bg-1 {
+	position: absolute;
+	width: 130%;
+	height: 130%;
+	left: -15%;
+	background: radial-gradient(30% 50%, #6D7788 0%, #3B4250 100%);
+	z-index: -20;
+	animation: grad-bg-1 15s ease-in-out alternate infinite;
+}
+
+@keyframes grad-bg-1 {
+	0% {
+		opacity: .2;
+		left: 0%;
+		top: 0%
+	}
+
+	20% {
+		opacity: .1;
+		left: -30%;
+	}
+
+	40% {
+		opacity: .4;
+		left: -10%;
+	}
+
+	60% {
+		opacity: .5;
+		left: -30%;
+		top: -30%
+	}
+
+	80% {
+		opacity: .2;
+		left: -20%;
+		top: 0%;
+	}
+
+	100% {
+		opacity: .6;
+		left: 0%;
+	}
+}
+
+@keyframes grad-bg-0 {
+	0% {
+		left: 0%;
+	}
+
+	20% {
+		left: -30%;
+	}
+
+	40% {
+		left: -10%;
+	}
+
+	60% {
+		left: -30%;
+	}
+
+	80% {
+		left: -20%;
+	}
+
+	100% {
+		left: 0%;
+	}
+}
+
+.bg-2 {
+	position: absolute;
+	width: 800px;
+	height: 2000px;
+	left: 50%;
+	top: 0%;
+	opacity: 0;
+	transform: rotate(0deg);
+	background: #06319A;
+	z-index: -10;
+	animation: bg-angle-2 .8s 1s cubic-bezier(0.295, 1.525, 0.195, 0.915) forwards;
+}
+
+.bg-3 {
+	position: absolute;
+	width: 800px;
+	height: 2400px;
+	left: 70%;
+	top: 10%;
+	opacity: 0;
+	transform: rotate(0deg);
+	background: #06319A;
+	z-index: -10;
+	animation: bg-angle-3 1.2s 1.2s cubic-bezier(0.295, 1.525, 0.195, 0.915) forwards;
+}
+
+@keyframes bg-angle-2 {
+	0% {
+		left: 0%;
+		transform: rotate(0deg);
+		width: 2000px;
+		opacity: 0;
+	}
+	100% {
+		left: -40%;
+		transform: rotate(-30deg);
+		width: 1500px;
+		opacity: .2;
+	}
+}
+
+@keyframes bg-angle-3 {
+	0% {
+		left: -50%;
+		transform: rotate(0deg);
+		width: 2000px;
+		opacity: 0;
+	}
+	100% {
+		left: -20%;
+		transform: rotate(-70deg);
+		width: 1500px;
+		opacity: .2;
+	}
+}
+
+@keyframes bg-topo {
+	0% {
+		background-position: 100% 50%;
+		opacity: .0;
+	}
+
+	100% {
+		background-position: 50% 50%;
+		opacity: .0;
+	}
+}
+
+.topography {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	opacity: 0;
+	background: url('http://dkos.co/images/topography.png');
+	background-position: 100% 50%;
+	z-index: -15;
+	animation: bg-topo 2s 0s cubic-bezier(0.000, 0.715, 0.195, 1.000) forwards;
+}
