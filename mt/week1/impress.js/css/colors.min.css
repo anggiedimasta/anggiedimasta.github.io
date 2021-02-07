@@ -1,0 +1,339 @@
+.bg-navy {
+	background-color: #202474!important
+}
+
+.bg-blue {
+	background-color: #06319A!important
+}
+
+.bg-aqua {
+	background-color: #7fdbff!important
+}
+
+.bg-teal {
+	background-color: #39cccc!important
+}
+
+.bg-olive {
+	background-color: #3d9970!important
+}
+
+.bg-green {
+	background-color: #2ecc40!important
+}
+
+.bg-lime {
+	background-color: #01ff70!important
+}
+
+.bg-yellow {
+	background-color: #FD9452!important
+}
+
+.bg-orange {
+	background-color: #F7707C!important
+}
+
+.bg-red {
+	background-color: #EE0C2F!important
+}
+
+.bg-fuchsia {
+	background-color: #C52673!important
+}
+
+.bg-purple {
+	background-color: #706DDE!important
+}
+
+.bg-maroon {
+	background-color: #85144b!important
+}
+
+.bg-white {
+	background-color: #fff!important
+}
+
+.bg-gray {
+	background-color: #aaa!important
+}
+
+.bg-silver {
+	background-color: #ddd!important
+}
+
+.bg-black {
+	background-color: #231F20!important
+}
+
+.navy {
+	color: #202474!important
+}
+
+.blue {
+	color: #06319A!important
+}
+
+.aqua {
+	color: #7fdbff!important
+}
+
+.teal {
+	color: #39cccc!important
+}
+
+.olive {
+	color: #3d9970!important
+}
+
+.green {
+	color: #2ecc40!important
+}
+
+.lime {
+	color: #01ff70!important
+}
+
+.yellow {
+	color: #FD9452!important
+}
+
+.orange {
+	color: #F7707C!important
+}
+
+.red {
+	color: #EE0C2F!important
+}
+
+.fuchsia {
+	color: #C52673!important
+}
+
+.purple {
+	color: #706DDE!important
+}
+
+.maroon {
+	color: #85144b!important
+}
+
+.white {
+	color: #fff!important
+}
+
+.silver {
+	color: #ddd!important
+}
+
+.gray {
+	color: #aaa!important
+}
+
+.black {
+	color: #231F20!important
+}
+
+.border--navy {
+	border-color: #202474!important
+}
+
+.border--blue {
+	border-color: #06319A!important
+}
+
+.border--aqua {
+	border-color: #7fdbff!important
+}
+
+.border--teal {
+	border-color: #39cccc!important
+}
+
+.border--olive {
+	border-color: #3d9970!important
+}
+
+.border--green {
+	border-color: #2ecc40!important
+}
+
+.border--lime {
+	border-color: #01ff70!important
+}
+
+.border--yellow {
+	border-color: #FD9452!important
+}
+
+.border--orange {
+	border-color: #F7707C!important
+}
+
+.border--red {
+	border-color: #EE0C2F!important
+}
+
+.border--fuchsia {
+	border-color: #C52673!important
+}
+
+.border--purple {
+	border-color: #706DDE!important
+}
+
+.border--maroon {
+	border-color: #85144b!important
+}
+
+.border--white {
+	border-color: #fff!important
+}
+
+.border--gray {
+	border-color: #aaa!important
+}
+
+.border--silver {
+	border-color: #ddd!important
+}
+
+.border--black {
+	border-color: #231F20!important
+}
+
+.fill-navy {
+	fill: #202474!important
+}
+
+.fill-blue {
+	fill: #06319A!important
+}
+
+.fill-aqua {
+	fill: #7fdbff!important
+}
+
+.fill-teal {
+	fill: #39cccc!important
+}
+
+.fill-olive {
+	fill: #3d9970!important
+}
+
+.fill-green {
+	fill: #2ecc40!important
+}
+
+.fill-lime {
+	fill: #01ff70!important
+}
+
+.fill-yellow {
+	fill: #FD9452!important
+}
+
+.fill-orange {
+	fill: #F7707C!important
+}
+
+.fill-red {
+	fill: #EE0C2F!important
+}
+
+.fill-fuchsia {
+	fill: #C52673!important
+}
+
+.fill-purple {
+	fill: #706DDE!important
+}
+
+.fill-maroon {
+	fill: #85144b!important
+}
+
+.fill-white {
+	fill: #fff!important
+}
+
+.fill-gray {
+	fill: #aaa!important
+}
+
+.fill-silver {
+	fill: #ddd!important
+}
+
+.fill-black {
+	fill: #231F20!important
+}
+
+.stroke-navy {
+	stroke: #202474!important
+}
+
+.stroke-blue {
+	stroke: #06319A!important
+}
+
+.stroke-aqua {
+	stroke: #7fdbff!important
+}
+
+.stroke-teal {
+	stroke: #39cccc!important
+}
+
+.stroke-olive {
+	stroke: #3d9970!important
+}
+
+.stroke-green {
+	stroke: #2ecc40!important
+}
+
+.stroke-lime {
+	stroke: #01ff70!important
+}
+
+.stroke-yellow {
+	stroke: #FD9452!important
+}
+
+.stroke-orange {
+	stroke: #F7707C!important
+}
+
+.stroke-red {
+	stroke: #EE0C2F!important
+}
+
+.stroke-fuchsia {
+	stroke: #C52673!important
+}
+
+.stroke-purple {
+	stroke: #706DDE!important
+}
+
+.stroke-maroon {
+	stroke: #85144b!important
+}
+
+.stroke-white {
+	stroke: #fff!important
+}
+
+.stroke-gray {
+	stroke: #aaa!important
+}
+
+.stroke-silver {
+	stroke: #ddd!important
+}
+
+.stroke-black {
+	stroke: #231F20!important
+}
